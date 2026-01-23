@@ -16,7 +16,7 @@ export default function LoginPage() {
 
   return (
     <div className="bg-[#121212] h-screen flex flex-col items-center justify-center gap-3">
-      <h1 className="text-white text-2xl">Login</h1>
+      <h1 className="text-white text-2xl">Sign Up</h1>
       <hr className="w-1/3 border-gray-600" />
 
       <label className="text-white" htmlFor="username">Username</label>
@@ -58,9 +58,9 @@ export default function LoginPage() {
         className="px-3 py-2 rounded bg-[#1DB954] text-white"
         onClick={onSignup}
       >
-        Login Here
+        Sign Up
       </button>
-        <Link className="text-[#1DB954]" href = "/login" >Sign Up</Link>
+        <Link className="text-[#1DB954]" href = "/login" >login</Link>
     </div>
   );
 }
