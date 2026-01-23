@@ -60,7 +60,7 @@ export default function LoginPage() {
       >
         Login Here
       </button>
-        <Link className="text-[#1DB954]" href = "/login" >Sign Up</Link>
+        <Link className="text-[#1DB954]" href = "/signup" >Sign Up</Link>
     </div>
   );
 }
