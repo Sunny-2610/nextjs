@@ -9,6 +9,12 @@ export function middleware(request: NextRequest) {
   if (isPublishPath) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
+  
+  if(!isPublishPath) {
+    return NextResponse.redirect(new URL('/home', request.url))
+  }
+
+
 }
  
 // See "Matching Paths" below to learn more
